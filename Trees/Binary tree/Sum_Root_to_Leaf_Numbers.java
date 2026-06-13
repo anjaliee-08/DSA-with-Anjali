@@ -1,8 +1,4 @@
-import java.util.ArrayList;
-
-import javax.swing.tree.TreeNode;
-
-public class Solution {
+class Solution {
     int sumPath(TreeNode root,ArrayList<Integer> ans,int num){
         if(root==null) return 0;
         if(root.left==null && root.right==null){
@@ -25,6 +21,4 @@ public class Solution {
         }
         return sum;
     }
-} {
-    
 }
